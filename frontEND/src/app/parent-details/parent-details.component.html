@@ -1,0 +1,18 @@
+<h2>Parent Details</h2> 
+
+<hr/>
+<div *ngIf="parent">
+  <div>
+    <label><b>First Name: </b></label> {{parent.firstName}}
+  </div>
+  <div>
+    <label><b>Last Name: </b></label> {{parent.lastName}}
+  </div>
+  <div>
+    <label><b>Employee Name: </b></label> {{parent.employee}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Parent List</button><br>

@@ -1,0 +1,12 @@
+<h2>Salary Details</h2> 
+
+<hr/>
+<div *ngIf="salary">
+  <div>
+    <label><b>Name: </b></label> {{salary.name}}
+  </div> 
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Salary List</button><br>

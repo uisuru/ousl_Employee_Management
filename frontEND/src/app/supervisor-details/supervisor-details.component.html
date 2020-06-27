@@ -1,0 +1,12 @@
+<h2>Supervisor Details</h2> 
+
+<hr/>
+<div *ngIf="supervisor">
+  <div>
+    <label><b>Name: </b></label> {{supervisor.name}}
+  </div> 
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Supervisor List</button><br>
