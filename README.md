@@ -16,3 +16,8 @@
 	-	Go to the employeeAPI folder and open CMD
 	-	run code "mvn clean install"
 	-	then run code "java -jar target/api-employee-0.0.1-SNAPSHOT.jar"
+	
+##Assumptions
+	-	Open for cros(Low security)
+	-	No validation
+	-	Used database is h2. So no need to setup mysql or else
