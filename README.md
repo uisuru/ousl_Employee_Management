@@ -9,8 +9,8 @@
 	
 **Run Frontend**</br>
 	-	Go to the frontEnd folder and open CMD</br>
-	-	Type npm install to download the modules</br>
-	-	Type ag serve to run on port 4200</br>
+	-	Type 'npm install' to download the modules</br>
+	-	Type 'ng serve -open' to run on port 4200</br>
 	- 	Now frontend is running</br></br>
 
 **Run API**</br>
